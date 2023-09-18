@@ -1,0 +1,14 @@
+assets
+target
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+app/build
+app/src/main/assets/*.ptl
+/captures
+.externalNativeBuild
+.cxx
+local.propertiesm

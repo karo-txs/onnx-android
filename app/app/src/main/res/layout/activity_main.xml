@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inference Time: "
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="top|right"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="305dp"
+        android:layout_height="41dp"
+        android:layout_gravity="bottom|center"
+        android:ems="10"
+        android:text="Paris is the [MASK] of France."
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        app:srcCompat="@android:drawable/ic_menu_send"
+        tools:layout_editor_absoluteX="342dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
