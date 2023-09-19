@@ -7,7 +7,7 @@ target
 .DS_Store
 /build
 app/build
-app/src/main/assets/*.ptl
+app/src/main/assets/
 /captures
 .externalNativeBuild
 .cxx
