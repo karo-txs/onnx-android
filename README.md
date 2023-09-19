@@ -19,6 +19,7 @@ sudo apt-get upgrade
 
 sudo apt-get install openjdk-8-jdk -y
 sudo apt-get install clang llvm lld sdkmanager -y
+sudo apt-get install pkg-config libssl-dev
 
 sudo sdkmanager --list
 sudo sdkmanager "build-tools;34.0.0"
